@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin=open('../data/get_decimal.txt', 'r')
+sys.stdin=open('../data/get_prime.txt', 'r')
 
 n = int(input())
 
