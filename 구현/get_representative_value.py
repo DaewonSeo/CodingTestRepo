@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin=open('data/get_representative_value.txt', 'r')
+sys.stdin=open('../data/get_representative_value.txt', 'r')
 
 n = int(input())
 nums = list(map(int, input().split()))

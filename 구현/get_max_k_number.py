@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin=open('data/get_max_k_number.txt', 'r')
+sys.stdin=open('../data/get_max_k_number.txt', 'r')
 
 n, k = map(int, input().split())
 nums = list(map(int, input().split()))

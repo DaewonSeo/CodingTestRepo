@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin=open('data/get_min_divisor.txt', 'r') # 'rt'모드의 t는 default 값
+sys.stdin=open('../data/get_min_divisor.txt', 'r') # 'rt'모드의 t는 default 값
 
 n, k = map(int, input().split())
 print(n,k)

@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open('data/get_k_numbers.txt', 'r')
+sys.stdin=open('../data/get_k_numbers.txt', 'r')
 
 C = int(input())
 
