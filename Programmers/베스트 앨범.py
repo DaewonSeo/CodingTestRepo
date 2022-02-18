@@ -13,15 +13,14 @@ def solution(genres, plays):
     for key in d.keys():
         d[key].sort(key=lambda x: (-x[0], x[1]))
     
-    for key,value in d.items():
+    for key, value in d.items():
         num_sum = 0
         for v in value:
-            num_sum +=v[0]
-        num.append([key,num_sum])
+            num_sum += v[0]
+        num.append([key, num_sum])
 
-    num.sort(key = lambda x: -x[1])
-
-
+    num.sort(key=lambda x: -x[1])
+    
     for genre,_ in num:
         if len(d[genre]) ==1:
             answer.append(d[genre][0][1])
