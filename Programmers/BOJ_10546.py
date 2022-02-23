@@ -21,14 +21,5 @@ for k, v in p.items():
         print(k)
         break
 
-# c.sort()
 
-# for i in range(n-1):
-#     if (p[i] != c[i]):
-#         result = p[i]
-
-# else:
-#     result = p[-1] 
-        
-# print(result)
     
