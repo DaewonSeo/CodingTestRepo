@@ -7,8 +7,6 @@ def solution(scoville, K):
         hq.heappush(s, sco)
 
     while s[0] < K:
-        if len(s) == answer:
-            return -1
         mixed_scoville_score = hq.heappop(s) + (hq.heappop(s) * 2)
         hq.heappush(s, mixed_scoville_score)
         answer += 1
