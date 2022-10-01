@@ -11,6 +11,7 @@ dy = (1, 2, 2, 1, -1, -2, -2, -1)
 
 def is_valid_coord(x, y):
     return 0 <= x < I and 0 <= y < I
+    
 def bfs(start_x, start_y, end_x, end_y):
     dq = deque()
     dq.append((start_x, start_y))

@@ -36,6 +36,7 @@ for i in range(H):
             if graph[i][j][k] == 1:
                 dq.append((i, j, k))
 
+print(graph)
 
 bfs()
 
